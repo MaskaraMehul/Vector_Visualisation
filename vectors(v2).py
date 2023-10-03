@@ -14,8 +14,7 @@ v2 = [i2, j2, k2]
 
 fig = plt.figure()
 ax = fig.add_subplot(1,1,1)
-if k1 != 0 and k2 != 0:
-    ax = plt.axes(projection = '3d')
+ax = plt.axes(projection = '3d')
 
 
 v1dotv2 = np.vdot(v1,v2)
